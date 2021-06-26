@@ -1,5 +1,7 @@
 .zx7 .container{
     background-image: url(../images/zx7-section-bgimg.jpg);
+    // background-repeat: no-repeat;
+    object-fit: cover;
     background-size:  1150px 320px;
     padding: 100px 100px ;
 

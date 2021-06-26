@@ -1,6 +1,7 @@
 .brining .container{
     display: flex;
     align-items: center;
+    margin-bottom: 200px;
 }
 
 
@@ -34,11 +35,14 @@
 }
 
 .brining__picture{
+    max-width: 100%;
     margin-left: auto;
 }
 
 .brining__img{
+    max-width: 100%;
     border-radius: 8px;
+    margin: 0 auto;
 }
 
 @media only screen and (max-width: 1035px){
@@ -50,9 +54,23 @@
     }
 
     .brining__img{ margin: 0 auto;
-        margin-left: 0;
+        // margin-left: 100px;
        
     }
 
+    .tablet-img{
+        width: 100%;
+        max-width: 690px;
+        height: 300px;
+    }
+
     
+}
+
+@media only screen and (max-width: 500px){
+
+    .brining__picture{
+        order: -1;
+        margin-left: 20px;
+    }
 }
