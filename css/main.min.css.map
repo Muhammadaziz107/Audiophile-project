@@ -6,7 +6,8 @@
         "../scss/_variables.scss",
         "../scss/_general.scss",
         "../scss/_fonts.scss",
-        "../scss/_normalize.scss"
+        "../scss/_normalize.scss",
+        "../scss/blocks/_blocks.scss"
     ],
     "names": [],
     "file": "main.min.css"
