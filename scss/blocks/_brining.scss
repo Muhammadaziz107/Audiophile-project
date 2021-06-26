@@ -1,0 +1,58 @@
+.brining .container{
+    display: flex;
+    align-items: center;
+}
+
+
+.brining__div-one{
+    width: 100%;
+    max-width: 445px;
+}
+
+
+
+.brining__div-one__heading {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 1.42857px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.brining__div-one__text {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.heading__span{
+    color: #D87D4A;
+}
+
+.brining__picture{
+    margin-left: auto;
+}
+
+.brining__img{
+    border-radius: 8px;
+}
+
+@media only screen and (max-width: 1035px){
+    .brining .container{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .brining__img{ margin: 0 auto;
+        margin-left: 0;
+       
+    }
+
+    
+}

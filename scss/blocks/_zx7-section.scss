@@ -1,0 +1,66 @@
+.zx7 .container{
+    background-image: url(../images/zx7-section-bgimg.jpg);
+    background-size:  1150px 320px;
+    padding: 100px 100px ;
+
+}
+
+.zx7__heading{
+    width: 100%;
+    max-width: 205px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 2px;
+    text-transform: uppercase; 
+    color: #000000;
+}
+
+.zx7__link{
+    width: 100%;
+    max-width: 160px;
+    border: 1px solid #000000;
+    text-decoration: none;
+    color: #000000;
+    padding: 15.5px 32px;
+}
+
+.zx7__link:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 800px){
+    .zx7 .container{
+        background-image: url(../images/zx7-section-bgimg-tablet.jpg);
+        background-size:  800px 320px;
+        padding: 100px 100px ;
+    
+    }
+} 
+
+@media only screen and (max-width: 475px){
+    .zx7 .container{
+        background-image: url(../images/zx7-section-bgimg-mobile.jpg);
+        background-size:  475px 320px;
+        padding: 100px 20px;
+    }
+} 
+
+@media only screen and (max-width: 375px){
+    .zx7 .container{
+        background-image: url(../images/zx7-section-bgimg-mobile.jpg);
+        background-size:  375px 320px;
+        padding: 100px 20px;
+    }
+} 
+
+@media only screen and (max-width: 320px){
+    .zx7 .container{
+        background-image: url(../images/zx7-section-bgimg-mobile.jpg);
+        background-size:  320px 320px;
+        padding: 100px 20px;
+    }
+} 

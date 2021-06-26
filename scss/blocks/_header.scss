@@ -1,0 +1,89 @@
+.header {
+    max-width: 100%;
+    background-color: #121212;
+}
+
+.header__logo-link{
+    padding: 35px 0;
+}
+
+.header .container .container__div-one{
+    display: flex;
+    align-items: center;
+}
+
+.header__nav {
+    margin-left: 150px;
+}
+
+.nav__ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.header__ul__item {
+    padding: 35px 17px;
+}
+
+.header__ul__link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.header__ul__link:hover{
+    color: #D87D4A;
+}
+
+.header__basket-link {
+    margin-left: auto;
+}
+
+.header__span {
+    display: block;
+    width: 100%;
+    max-width: 1100px;
+    height: 2px;
+    background-color: white;
+    opacity: 0.2;
+    // margin-bottom: 10px;
+}
+
+.hamburger-btn{
+    display: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 810px){
+    .header__logo-link{
+        margin-left: 45px;
+    }
+
+    .header__nav{
+        display: none;
+    }
+
+    .hamburger-btn{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .header__logo-link{
+        padding: 32px 0;
+        margin: 0 auto;
+    }
+
+    .header__basket-link{
+        
+    }
+}
