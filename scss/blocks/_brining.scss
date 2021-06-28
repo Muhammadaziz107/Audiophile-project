@@ -1,76 +1,70 @@
-.brining .container{
-    display: flex;
-    align-items: center;
-    margin-bottom: 200px;
+.brining .container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 200px;
 }
 
-
-.brining__div-one{
-    width: 100%;
-    max-width: 445px;
+.brining__div-one {
+  width: 100%;
+  max-width: 445px;
 }
-
-
 
 .brining__div-one__heading {
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 44px;
-    letter-spacing: 1.42857px;
-    text-transform: uppercase;
-    color: #000000;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: 1.42857px;
+  text-transform: uppercase;
+  color: #000000;
 }
 
 .brining__div-one__text {
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 25px;
-    color: #000000;
-    mix-blend-mode: normal;
-    opacity: 0.5;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.5;
 }
 
-.heading__span{
-    color: #D87D4A;
+.heading__span {
+  color: #d87d4a;
 }
 
-.brining__picture{
-    max-width: 100%;
-    margin-left: auto;
+.brining__picture {
+  max-width: 100%;
+  margin-left: auto;
 }
 
-.brining__img{
-    max-width: 100%;
-    border-radius: 8px;
+.brining__img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 1035px) {
+  .brining .container {
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;
+    text-align: center;
+  }
+
+  .brining__img {
+    margin: 0 auto;
+    // margin-left: 100px;
+  }
+
+  .tablet-img {
+    width: 100%;
+    max-width: 690px;
+    height: 300px;
+  }
 }
 
-@media only screen and (max-width: 1035px){
-    .brining .container{
-        display: flex;
-        flex-direction: column;
-        margin: 0 auto;
-        text-align: center;
-    }
-
-    .brining__img{ margin: 0 auto;
-        // margin-left: 100px;
-       
-    }
-
-    .tablet-img{
-        width: 100%;
-        max-width: 690px;
-        height: 300px;
-    }
-
-    
-}
-
-@media only screen and (max-width: 500px){
-
-    .brining__picture{
-        order: -1;
-        margin-left: 20px;
-    }
+@media only screen and (max-width: 500px) {
+  .brining__picture {
+    order: -1;
+    margin-left: 20px;
+  }
 }
